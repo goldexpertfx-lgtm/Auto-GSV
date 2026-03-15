@@ -3,7 +3,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKe
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
 
 # --- Configuration ---
-TOKEN = os.environ.get("8284715892:AAE-rjrQovkKdI9HdxozsejhqKXfoy8BZRE")
+TOKEN = os.environ.get("BOT_TOKEN")
 PARTNER_LINK = "https://www.brokeraccountguide.com/"
 SUPPORT_LINK = "https://t.me/MuhammadPrince7"
 ADMIN_ID = 5072932186  # <--- REPLACE THIS WITH YOUR NUMERIC TELEGRAM ID
